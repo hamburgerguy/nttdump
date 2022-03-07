@@ -150,8 +150,8 @@ def setup(par):
           like SHAKE256 to output N+2**sec_level-bit integers from 0 , 1, ..., 2**(N+2**sec_level) - 1 and modding by q.
         - The parameters for the scheme (d, q, l) are independent of the security parameter; they are set at values
           we think exceed 128 bits of post-quantum security, but these values must be checked.
-    TODO: Parameters here come from the BK paper and should be considered insecure choices (see warning at top of doc!)
-    TODO: Output variable parameters depending on desired security level. Presently, this method only outputs fixed
+          Parameters here come from the BK paper and should be considered insecure choices (see warning at top of doc!)
+          Output variable parameters depending on desired security level. Presently, this method only outputs fixed
           parameters we suspect are 128-bit secure against quantum computers. In this sample code, the security
           parameter is only used for sampling numbers without bias from Z/qZ.
     """
