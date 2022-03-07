@@ -1,3 +1,4 @@
+### parameters comes from bk paper and should be considered insecure and not used for secure cryptographic applications. ###
 from copy import deepcopy
 from hashlib import shake_256
 from math import ceil, log2, sqrt
